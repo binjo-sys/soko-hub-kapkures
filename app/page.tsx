@@ -32,7 +32,7 @@ export default function Home() {
 
       <section className="hero wrap">
         <div className="hero-copy">
-          <div className="eyebrow"><span className="live-dot"/> KAPKURES' LOCAL MARKETPLACE</div>
+          <div className="eyebrow"><span className="live-dot"/> KAPKURES&apos; LOCAL MARKETPLACE</div>
           <h1>Your neighbourhood.<br/><em>One marketplace.</em></h1>
           <p>Discover great finds from shops around Kapkures. Browse local, support local, and get what you need without the hassle.</p>
           <a className="primary-btn" href="#products">Explore products <ArrowRight size={17}/></a>
