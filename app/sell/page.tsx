@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, Store, MapPin, ShieldCheck } from "lucide-react";
+import { Store, MapPin, ShieldCheck } from "lucide-react";
 
 export default function SellPage() {
   return (
