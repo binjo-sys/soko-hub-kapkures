@@ -117,3 +117,13 @@ CREATE INDEX IF NOT EXISTS idx_seller_applications_status ON seller_applications
 CREATE INDEX IF NOT EXISTS idx_orders_customer ON orders(customer_user_id, created_at);
 CREATE INDEX IF NOT EXISTS idx_orders_status ON orders(status, created_at);
 CREATE INDEX IF NOT EXISTS idx_order_items_order ON order_items(order_id);
+
+INSERT OR IGNORE INTO categories (id, name, slug) VALUES
+  ('cat-electronics', 'Electronics', 'electronics'),
+  ('cat-fashion', 'Fashion', 'fashion'),
+  ('cat-phones', 'Phones & Accessories', 'phones-accessories'),
+  ('cat-home', 'Home & Furniture', 'home-furniture'),
+  ('cat-beauty', 'Beauty & Personal Care', 'beauty-personal-care'),
+  ('cat-groceries', 'Groceries', 'groceries'),
+  ('cat-shoes', 'Shoes', 'shoes'),
+  ('cat-sports', 'Sports & Outdoors', 'sports-outdoors');
