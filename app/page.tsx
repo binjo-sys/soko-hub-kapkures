@@ -26,7 +26,7 @@ export default function Home() {
       <div className="topline"><span><MapPin size={13}/> Serving Kapkures, Kenya</span><span>Shop local. Shop easy.</span></div>
       <header className="header wrap">
         <a className="brand" href="#"><span className="brand-mark">S</span><span>SOKO<span className="brand-accent">HUB</span><small>YOUR LOCAL MARKETPLACE</small></span></a>
-        <nav><a href="#categories">Categories</a><a href="#shops">Local shops</a><a href="#how">How it works</a></nav>
+        <nav><a href="#categories">Categories</a><a href="#shops">Local shops</a><a href="/sell">How it works</a></nav>
         <div className="header-actions"><button className="icon-btn mobile-menu" aria-label="Menu"><Menu/></button><button className="cart-btn" aria-label="Shopping cart"><ShoppingBag size={18}/> <span>Cart</span><b>{cart.length}</b></button></div>
       </header>
 
@@ -61,7 +61,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="shops" className="seller-banner wrap"><div><div className="eyebrow">GOT A SHOP IN KAPKURES?</div><h2>Bring your shop<br/>to SOKO HUB.</h2><p>Reach more nearby customers and manage your products in one place.</p><a className="dark-btn" href="#how">Seller registration opening soon <ArrowRight size={16}/></a></div><div className="seller-graphic"><div className="shop-window">SOKO<br/><b>SELLER</b><span>OPEN</span></div><span className="seller-spark">✳</span></div></section>
+      <section id="shops" className="seller-banner wrap"><div><div className="eyebrow">GOT A SHOP IN KAPKURES?</div><h2>Bring your shop<br/>to SOKO HUB.</h2><p>Reach more nearby customers and manage your products in one place.</p><a className="dark-btn" href="#how">Become a seller <ArrowRight size={16}/></a></div><div className="seller-graphic"><div className="shop-window">SOKO<br/><b>SELLER</b><span>OPEN</span></div><span className="seller-spark">✳</span></div></section>
 
       <section id="how" className="section wrap how-section"><div className="eyebrow">SIMPLE FROM START TO FINISH</div><h2>Local shopping, made easier.</h2><div className="steps"><div><b>01</b><h3>Find your shop</h3><p>Explore products from participating Kapkures businesses.</p></div><div><b>02</b><h3>Choose your items</h3><p>Compare options and add what you need to your basket.</p></div><div><b>03</b><h3>Order locally</h3><p>Arrange local delivery or pickup with the seller.</p></div></div></section>
       <footer><div className="wrap footer-inner"><a className="brand footer-brand" href="#"><span className="brand-mark">S</span><span>SOKO<span className="brand-accent">HUB</span><small>YOUR LOCAL MARKETPLACE</small></span></a><p>Made for Kapkures. Built to grow.</p><small>© {new Date().getFullYear()} SOKO HUB</small></div></footer>
